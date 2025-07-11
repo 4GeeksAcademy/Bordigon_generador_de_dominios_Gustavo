@@ -18,9 +18,10 @@ body {
 
 }
 
-/////////////////////// este trabajo se divide en 3 partes, preFoto, Foto y postFoto //////////////////
 
-////////////preFoto////////////////////////
+
+
+
 
 .preFoto{
 	height:50px;
@@ -42,7 +43,10 @@ body {
 	padding-right:0;
 }
 
-///////////////////////Foto///////////////////////
+
+
+
+
 
 .fotoContainer{
 	width:400px;
@@ -55,7 +59,10 @@ body {
 }
 
 
-////////////////////////postFoto/////////////////////////
+
+
+
+
 
 .postFotoIconos{
 	display:flex;
