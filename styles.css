@@ -1,93 +1,12 @@
-body {
-	background:black;
-	display:flex;
-	flex-direction:column;
-	align-items:center;
-	justify-content:center;
-	font-family:"Inter", sans-serif;
-	height:700px;
-
+a:visited{
+	color:blue;
 }
 
-#publicacion {
-	width: 400px;
-	height: 550px;
-	background: white;
-	display:flex;
-	flex-direction:column;
-
+body{
+	text-align:center;
 }
 
-
-
-
-
-
-.preFoto{
-	height:50px;
-	display:flex;
-	flex-direction:row;
-	align-items:center;
-	justify-content:space-between;
-	padding-left:10px;
+h1{
+	font-size:3em;
 }
 
-.preFoto img:first-of-type{
-	width:28px;
-	height:28px;
-}
-
-.preFoto img:nth-child(3){
-	width:30px;
-	height:30px;
-	padding-right:0;
-}
-
-
-
-
-
-
-.fotoContainer{
-	width:400px;
-	height:250px;
-	display:flex;
-	flex-direction:row;
-	
-	justify-content:center;
-	overflow:hidden;
-}
-
-
-
-
-
-
-
-.postFotoIconos{
-	display:flex;
-	flex-direction:row;
-	align-items:center;
-	justify-content:space-between;
-	heigh:50px;
-	padding:10px;
-}
-
-.postFotoIconos img{
-	width:30px;
-	height:30px;
-}
-
-.postFotoIconos img:nth-child(3){
-	margin-right:auto;
-	padding-left:10px;
-}
-
-.postFotoIconos img:nth-child(2){
-	padding-left:10px;
-}
-
-.postFotoBody p{
-	margin:8px;
-	font-size:12px;
-}
